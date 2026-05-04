@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/pharma-api-gateway
+  repository: 485827116528.dkr.ecr.us-east-1.amazonaws.com/pharma-api-gateway
   tag: latest
   pullPolicy: Always
 
@@ -69,5 +69,5 @@ envFrom:
 serviceAccount:
   create: true
   annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::<AWS_ACCOUNT_ID>:role/pharma-qa-gitlab-runner-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::485827116528:role/pharma-qa-gitlab-runner-role
   name: api-gateway

@@ -154,7 +154,7 @@ image:
 **pharma-ui** — edit the deployment manifest directly:
 ```bash
 # k8s-manifests/pharma-ui/deployment.yaml
-image: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/pharma-ui:v1.2.0
+image: 485827116528.dkr.ecr.us-east-1.amazonaws.com/pharma-ui:v1.2.0
 ```
 
 Push the change — ArgoCD detects it and syncs automatically.

@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/pharma-notification-service
+  repository: 485827116528.dkr.ecr.us-east-1.amazonaws.com/pharma-notification-service
   tag: latest
   pullPolicy: Always
 
