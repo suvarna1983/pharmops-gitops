@@ -5,7 +5,7 @@ metadata:
   namespace: dev
   labels:
     app: pharma-ui
-    version: "1.0.0"
+    version: "v1.0.0"
 spec:
   replicas: 1
   selector:
@@ -32,7 +32,7 @@ spec:
             readOnlyRootFilesystem: true
             runAsNonRoot: true
             runAsUser: 1000
-          image: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/pharma-ui:v1.0.0
+          image: 485827116528.dkr.ecr.us-east-1.amazonaws.com/pharma-ui:v1.0.0
           imagePullPolicy: Always
           ports:
             - name: http
